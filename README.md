@@ -87,7 +87,7 @@ Install `gsutil` and initialise the gcloud CLI, following instructions for your 
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/gioodm/WASP.git
+git clone https://github.com/gioodm/wasp-protein-annotation.git
 cd WASP
 ```
 
