@@ -4,5 +4,6 @@ include requirements.txt
 
 recursive-include example_files *
 recursive-include wasp/main/safepy *.ini
+recursive-include wasp/main/safepy *.py
 recursive-include wasp/utils/gem_preprocessing *.tsv
 
