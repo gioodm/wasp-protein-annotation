@@ -13,7 +13,7 @@ import altair as alt
 from altair_saver import save
 
 sys.path.append(os.path.join(os.getcwd(), 'wasp', 'main', 'safepy'))
-import safe
+from wasp.main.safepy import safe
 
 # Set random seed for reproducibility
 np.random.seed(0)
