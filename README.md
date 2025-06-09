@@ -59,8 +59,8 @@ source wasp-env/bin/activate
 or 
 
 ```bash
-conda create -n WASP python==3.10 -y
-conda activate WASP
+conda create -n wasp-env python==3.10 -y
+conda activate wasp-env
 ```
 
 2. **Install WASP**:
