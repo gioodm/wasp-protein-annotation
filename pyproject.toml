@@ -8,7 +8,7 @@ version = "1.0.0"
 description = "WASP: A computational pipeline for protein functional annotation using structural information."
 readme = "README.md"
 requires-python = ">=3.9"
-license = {file = "LICENSE"}
+license = { file = "LICENSE" }
 
 authors = [
     { name = "Giorgia Del Missier", email = "delmissiergiorgia@gmail.com" }
