@@ -1,0 +1,342 @@
+rxn_id	rxn_name
+2DHPtm	2 Dehydropantoate mitochondrial transport
+2OHPH_5tn	2 Octaprenyl 6 hydroxyphenol nuclear transport
+2OMPH_5tm	2 Octaprenyl 6 methoxyprenol mitochondrial transport
+2OMPH_5tn	2 Octaprenyl 6 methoxyprenol nuclear transport
+34HPPOR	4 Hydroxyphenylpyruvateoxygen oxidoreductase
+34HPPt2m	3 4 hydroxyphenyl pyruvate mitochondrial transport via proton symport
+34HPPt2p	3 4 hydroxyphenyl pyruvate peroxisomal transport via proton symport
+3OPHB_5tm	3 Octaprenyl 4 hydroxybenzoate mitochondrial transport
+4HBZtm	4 Hydroxybenzoate mitochondrial transport
+5AOPtm	5 Aminolevulinate mitochondrial transport
+8AONNt2	8 Amino 7 oxononanoate reversible transport via proton symport
+AABTN	4 acetamidobutyrate deacetylase
+ACRNtp	acetylcarnitine transport out of peroxisome
+ARGSSr	argininosuccinate synthase reversible
+ACtm	acetate transport mitochondrial
+ACtp	acetate transport peroxisomal
+ADCL	4 aminobenzoate synthase
+ADEtm	adenine reversible transport mitochondria
+ADNt2	adenosine transport in via proton symport
+G5SADr	L glutamate 5 semialdehyde dehydratase reversible
+AHCYStm	S adenosyl L homocysteine reversible transport mitochondrial
+AHCYStn	S adenosyl L homocysteine nuclear transport
+AHMMPS	4 amino 5 hydroxymethyl 2 methylpyrimidine synthetase
+AKGMAL	alpha ketoglutaratemalate transporter
+AKGt2n	2 oxoglutarate nuclear transport via proton symport
+AKGt2r	2 oxoglutarate reversible transport via symport
+AM6SAD	aminomuconate semialdehyde dehydrogenase
+AMETtm	S Adenosyl L methionine reversible transport mitochondrial
+AMETtn	S adenosyl L methionine nuclear transport
+APRTO2	N acetylputrescine oxygen oxireductase deaminating
+ARAB_Dt	D arabinose reversible transport
+ARAB_Lt	L arabinoase extracellular transport
+ARGt2m	arginine mitochondrial transport via proton symport
+ASNt2m	asparagine mitochondrial transport via proton transport
+ASP1DC	aspartate 1 decarboxylase
+ASPGLUtp	aspartate glutamate peroxisomal shuttle
+ASPt2m	aspartate mitochondrial transport via proton symport
+ATPM	ATP maintenance requirement
+SERATi	serine O acetyltransferase irreversible
+DESAT18_2	Oleoyl CoA desaturase n C181CoA n C182CoA
+CDPtn	CDP nuclear transport
+CERS124	Ceramide 1 synthase 24C
+CERS126	Ceramide 1 synthase 26C
+CERS224	Ceramide 2 synthase 24C
+CERS226	Ceramide 2 synthase 26C
+CITt2r	citrate reversible transport via symport
+CITtap	citratemalate antiport into peroxisome
+CITtcp	citrateisocitrate antiport into peroxisome
+CMPN	CMP nucleosidase
+CO2tg	CO2 Golgi transport
+CO2tp	CO2 peroxisomal transport
+CO2tv	CO2 vacuolar transport
+CRNCARtp	carnitine acetylcarnitine carrier peroxisomal
+CRNtp	carnitine transport into peroxsiome
+CSNAT	carnitine O acetyltransferase
+CYSTtp	cystathione peroxisomal transport
+CYTDt2	cytidine transport in via proton symport
+CYTK1	cytidylate kinase CMP
+CYTK2	cytidylate kinase dCMP
+DADK	deoxyadenylate kinase
+DADNt2	deoxyadenosine transport in via proton symport
+DADPtn	DADP nuclear transport
+DANNt2	7 8 Diaminononanoate reversible transport via proton symport
+DB4PS	3 4 Dihydroxy 2 butanone 4 phosphate synthase
+DBTSr	dethiobiotin synthase
+DCDPtn	dCDP nuclear transport
+DCYTt2	deoxycytidine transport in via proton symport
+DESAT14	Myristicoyl CoA desaturase n C140CoA n C141CoA
+DGDPtn	dGDP nuclear transport
+DGSNt2	deoxyguanosine transport in via proton symport
+DHAPtm	dihydroxyacetone phosphate transport mitochondrial
+DHFtm	dihydrofolate reversible mitochondrial transport
+DHNPTtm	dhnpt mitochondrial transport
+DHORD	dihydoorotic acid dehydrogenase
+DHPPDA	diaminohydroxyphosphoribosylaminopyrimidine deaminase
+DIAT	diamine transaminase
+DINSt2	deoxyinosine transport in via proton symport
+DNTPPA	Dihydroneopterin triphosphate pyrophosphatase
+ddca_t_	dodecanoate transport
+DPCOAK	dephospho CoA kinase
+DPCOAKm	dephospho CoA kinase mitochondrial
+DTTPt	dTTP reversible uniport
+DUMPtn	dUMP nuclear transport
+DURIK1	deoxyuridine kinase ATPDeoxyuridine
+DURIt2	deoxyuridine transport in via proton symport
+DXHPScm	deoxyhypusine synthase cytosolicmitochondrial
+D_LACtm	D lactate transport mitochondrial
+EPMGH	Epimelibiose galactohydrolase
+ETHAPT_SC	Ethanolaminephosphotransferase yeast specific
+ETOHt	ethanol reversible transport
+FA120ACPtm	fatty acyl ACP mitochondrial transport
+FA140ACPtm	fatty acyl ACP mitochondrial transport
+FA140tp	fatty acid peroxisomal transport
+FA141ACPtm	fatty acyl ACP mitochondrial transport
+FA141tp	fatty acid peroxisomal transport
+FA160ACPtm	fatty acyl ACP mitochondrial transport
+FA160tp	fatty acid peroxisomal transport
+FA161ACPtm	fatty acyl ACP mitochondrial transport
+FA161tp	fatty acid peroxisomal transport
+FA180ACPtm	fatty acyl ACP mitochondrial transport
+FA181ACPtm	fatty acyl ACP mitochondrial transport
+FA182ACPtm	fatty acyl ACP mitochondrial transport
+FAO141p_even	fatty acid oxidation
+FAO141p_odd	Fatty acid oxidation
+FAO161p_even	Fatty acid oxidation
+FAO161p_odd	Fatty acid oxidation
+FAO181p_even	Fatty acid oxidation
+FAO181p_odd	Fatty acid oxidation
+FAO182p_eveneven	Fatty acid oxidation
+FAO182p_evenodd	Fatty acid oxidation
+FAO182p_oddodd	Fatty acid oxidation
+FAO240p	fatty acid oxidation tetradecansoyl CoA peroxisomal
+FAO80p	fatty acid oxidation octanoyl CoA peroxisomal
+FDNG	formate dehydrogenase cytosolicmitochondrial
+FKYNH	N Formyl L kynurenine amidohydrolase
+FMNATm	FMN adenylyltransferase
+FORtm	formate mitochondrial transport
+FRUK	fructose 1 phosphate kinase
+FTHFCLm	5 formethyltetrahydrofolate cyclo ligase mitochondrial
+FUMAC	fumarylacetoacetase
+FUMt2r	fumarate reversible transport via symport
+G16MTg	Glycolipid 1 6 alpha D mannosyltransferase Golgi apparatus
+G5SADrm	L glutamate 5 semialdehyde dehydratase reversible mitochondrial
+RNTR4	ribonucleoside triphosphate reductase UTP
+GALIGH	1 alpha D Galactosyl myo inositol galactohydrolase
+GALS3	a galactosidase melibiose
+GALT	galactose 1 phosphate uridylyltransferase
+GAM6Pt	D glucosamine 6 phosphate reversible uniport
+GAT2_SC	glycerol 3 phosphate acyltransferase glycerone phosphate yeast specific
+GCALDt	Glycoaldehydye reversible transport
+GCALDtm	glycoaldehyde mitochondrial transport
+GDPt3g	GDP Golgi transport via proton anitport
+GDPtn	GDP nuclear transport
+GGLGH	Galactosylglycerol galactohydrolase
+GLCtv	glucose transport vacuolar
+G6PDH2er	glucose 6 phosphate dehydrogenase endoplasmic reticulum
+GLNt2n	glutamine nuclear transport via proton symport
+GLUN	glutaminase
+GLUt2m	L glutamate reversible transport via proton symport mitochondrial
+GLUt2n	glutamate nuclear transport via proton symport
+GLXtp	glyoxylate transport peroxisomal
+GLYC3Ptm	glycerol 3 phosphate shuttle
+GLYt2m	glycine mitochondrial transport via proton symport
+GSNK	guanosine kinase
+GSNt2	guanosine transport in via proton symport
+GSNt2m	guanosine mitochondrial transport via proton symport
+GTHOXti	oxidized glutathione irreversible uniport
+H2Oter	H2O endoplasmic reticulum transport
+H2Otm	H2O transport mitochondrial
+H2Otp	H2O transport peroxisomal
+H2Otv	H2O transport vacuolar
+HCO3E	HCO3 equilibration reaction
+HCO3Em	HCO3 equilibration reaction
+HCO3En	HCO3 equilibrium reaction nuclear
+HCYSt2p	Homocysteine peroxisomal transport via proton symport
+HDCAt	Hexadecanoate n C160 transport in via uniport
+HDCEAt	hexadecenoate n C161 transport in via uniport
+HGNTOR	Homogentisateoxygen 1 2 oxidoreductase decyclizing
+GAT1_SC	glycerol 3 phosphate acyltransferase glycerol 3 phosphate yeast specific
+HISt2m	histidine mitochondrial transport via proton symport
+HMGCOAtm	Hydroxymethylglutaryl CoA reversible mitochondrial transport
+HXANt2r	hypoxanthine reversible transport via proton symport
+HYPOE	hypothetical enyme
+INSK	insosine kinase
+INSt2	inosine transport in via proton symport
+DHORD4	dihydoorotic acid ubiquinone 6
+OMPDC	orotidine 5 phosphate decarboxylase
+Kt2r	potassium reversible transport via proton symport
+LYSt2m	Lysine mitochondrial transport via proton symport
+M1PD	mannitol 1 phosphate 5 dehydrogenase
+MACACI	maleylacetoacetate isomerase
+MALOAAtp	malateoxaloacetate shuttle
+MALt2r	L malate reversible transport via proton symport
+MCOATAm	Malonyl CoA ACP transacylase mitochondrial
+MELIBt2	melibiose transport in via symport
+CHLSTI	cholestenol delta isomerase lumped reaction
+METt2m	methionine mitochondrial transport via proton symport
+NADN	NAD nucleosidase
+NADNm	NAD nucleosidase mitochondrial
+NADPPPS	NADP phosphatase
+NADPPPSm	NADP phosphatase
+NH4tp	ammonia peroxisomal transport
+NMNTP	nmntp
+NMNt2m	NMN mitochondrial transport via proton symport
+NMNt2p	NMN peroxisomal transport via proton symport
+AATA	2 aminoadipate transaminase
+OCDCAt	Octadecanoate n C180 transport in via uniport
+OCDCEAt	Octadecenoate n C181 transport in via uniport
+OCDCYAt	Octadecynoate n C182 transport in via uniport
+OCTDP_5tm	all trans Octaprenyl diphosphate
+OMPHHX6m	2 octaprenyl 6 methoxyphenol hydroxylase mitochondrial
+OPHHX6	2 Octaprenylphenol hydroxylase
+DOLPt2er	dolichol phosphate endoplasmic reticular transport via proton symport
+ERGSTter	ergosterol endoplasmic reticular transport
+P5CDm	1 pyrroline 5 carboxylate dehydrogenase mitochondrial
+ERGTETROLter	Ergosta 5 6 22 24 28 tetraen 3beta ol endoplamic reticular transport
+PAK_SC	phosphatidate kinase yeast specific
+PAN4Ptm	panthetheine 4 phosphate reversible mitochondrial transport
+PANTtm	pantothenate mitochondrial transport
+PAPt	PAP reversible uniport
+PAPtm	Adenosine 3 5 bisphosphate mitochondrial transport
+PAtm_SC	phosphatidate reversible transport mitochondrial yeast specific
+PCLAD	picolinic acid decarboxylase
+O2ter	O2 transport endoplasmic reticulum
+SQ23EPXter	Squalene 2 3 epoxide endoplamic reticular transport
+PEtg_SC	phosphatidylethanolamine Golgi transport yeast specific
+PEtm_SC	phosphatidylethanolamine mitochondrial transport yeast specific
+PEtv_SC	phosphatidylethanolamine vacuolar transport yeast specific
+SQLter	squalene endoplamic reticular transport
+PGPPAm_SC	phosphatidylglycerol phosphate phosphatase A yeast specific mitochondrial
+PHEt2m	Phenylalanine mitochondrial transport via proton symport
+PI3P4K_SC	phosphatidylinositol 3 phosphate 4 kinase yeast specific
+PIt2p	phosphate peroxisomal transport via proton symport
+PIt2v	phosphate vacuolar transport via proton symport
+PMDPHT	pyrimidine phosphatase
+POLYAO	polyamine oxidase
+POLYAO2	poylamine oxidase
+PPND	prephenate dehydrogenase
+PPPG9tm	protoporphyrinogen IX mitochondrial transport
+NH4tm	NH3 mitochondrial transport
+PROtm	L proline transport mitochondrial
+PRPPtm	PRPP reversible transport mitochondrial
+PYRt2m	pyruvate mitochondrial transport via proton symport
+THRt2m	threonine mitochondrial transport via proton symport
+ASPt2n	aspartate nuclear transport via proton symport
+PStg_SC	phosphatidylserine Golgi transport yeast specific
+PStm_SC	phosphatidylserine mitochondrial transport yeast specific
+PStv_SC	phosphatidylserine vacuolar transport yeast specific
+PTD1INOtn_SC	phosphatidyl 1D myo insoitol nuclear transport yeast specific
+PTD4INOtn_SC	phosphatidyl 1D myo 4 inositol nuclear transport yeast specific
+PTRCt2	putrescine transport in via proton symport
+PYNP2r	pyrimidine nucleoside phosphorylase uracil
+DHORtn	S Dihydrooroate nuclear transport
+PYRt2p	pyruvate peroxisomal transport via proton symport
+QULNtm	Quinolinate reversible mitochondrial transport
+RIBFLVt2	riboflavin transport in via proton symport
+RIBFLVtm	Riboflavin reversible mitochondrial transport
+RIBt2	ribose transport in via proton symporter
+H2Otn	H2O transport nuclear
+RNTR1	ribonucleoside triphosphate reductase ATP
+RNTR2	ribonucleoside triphosphate reductase GTP
+RNTR3	ribonucleoside triphosphate reductase CTP
+PIt2n	phosphate nuclear transport via proton symport
+SERt2m	serine mitochondrial transport via proton symport
+SPMDAT1	Spermidine acetyltransferase
+SPMDt2	spermidine transport in via proton symport
+SRB_Lt	L sorbose reversible transport
+SUCCt2r	succinate transport via proton symport
+THMDt2	thymidine transport in via proton symport
+THMP	thiamin phosphatase
+THYMt3r	thymine reversible transport via proton antiport
+THZPSN1_SC	thiazole phosphate synthesis xylulose 5 phosphate yeast specific
+TMDK1	thymidine kinase ATPthymidine
+TMN	thiaminase
+TMPKr	thiamine phosphate kinase
+IPMD	3 isopropylmalate dehydrogenase
+TREt2	trehalose transport in via proton symporter
+TREt2v	trehalose vacuolar transport via proton symport
+TRPt2m	tryptophan mitochondrial transport via proton symport
+TTDCAt	Tetradecanoate n C140 transport in via uniport
+TYRt2m	tyrosine mitochondrial transport via proton symport
+TYRt2p	tyrosine peroxisomal transport via proton symport
+UMPtn	UMP nuclear transport
+VALt2m	Valine reversible mitochondrial transport via proton symport
+XANt	xanthine reversible transport
+XTSNt2	xanthosine transport in via proton symport
+XYLt	D xylose reversible transport
+ACAT_epist	ACAT epist
+ACAT_ergst	ACAT ergst
+ACAT_fecost	ACAT fecost
+ACAT_lanost	ACAT lanost
+ACAT_zymst	ACAT zymst
+DGL	DGL
+DGRK_SC	DGRK SC
+LRO1_ps	LRO1 ps
+MGL	MGL
+PHOSPTD	PHOSPTD
+PLB_lpc	PLB lpc
+PLB_lpe	PLB lpe
+PLB_lps	PLB lps
+PLB_pc	PLB pc
+PLB_pe	PLB pe
+PLB_ps	PLB ps
+PL_gpc	PL gpc
+PL_gpe	PL gpe
+PL_gps	PL gps
+SEH_epist	SEH epist
+SEH_ergst	SEH ergst
+SEH_fecost	SEH fecost
+SEH_lanost	SEH lanost
+SEH_zymst	SEH zymst
+SEp_form	SEp form
+membrane_rSC4_bal	membrane rSC4 bal
+glycogen_c_tp	glycogen c tp
+membrane_WOtag	membrane WOtag
+rETOHt	rETOHt
+FAO100p	fatty acid oxidation decanoyl CoA peroxisomal YL
+FAO120p	fatty acid oxidation dodecanoyl CoA peroxisomal YL
+FAO60p	fatty acid oxidation hexanoyl CoA peroxisomal YL
+BUCAt	butanoate n C40 transport in via uniport YL
+coatp	CoA transport peroxisome YL
+O2tp	oxygen transport peroxisome
+ACACTDC10p	acetyl-CoA C-acetyltransferase (decanedioyl-CoA), peroxisomal
+ACACTDC12p	acetyl-CoA C-acetyltransferase (dodecanedioyl-CoA), peroxisomal
+ACACTDC14p	acetyl-CoA C-acetyltransferase (tetradecanedioyl-CoA), peroxisomal
+ACACTDC16p	acetyl-CoA C-acetyltransferase (hexadecanedioyl-CoA), peroxisomal
+ACACTDC6p	acetyl-CoA C-acetyltransferase (adipoyl-CoA), peroxisomal
+ACACTDC8p	acetyl-CoA C-acetyltransferase (octanedioyl-CoA), peroxisomal
+ACOAODC10p	acyl-CoA oxidase (decanedioyl-CoA), peroxisomal
+ACOAODC12p	acyl-CoA oxidase (dodecanedioyl-CoA), peroxisomal
+ACOAODC14p	acyl-CoA oxidase (tetradecanedioyl-CoA), peroxisomal
+ACOAODC16p	acyl-CoA oxidase (hexadecanedioyl-CoA), peroxisomal
+ACOAODC6p	acyl-CoA oxidase (adipoyl-CoA), peroxisomal
+ACOAODC8p	acyl-CoA oxidase (octanedioyl-CoA), peroxisomal
+DCCOAL10	Dicarboxylic-acid--CoA ligase (decandioate)
+DCCOAL12	Dicarboxylic-acid--CoA ligase (dodecandioate)
+DCCOAL16	Dicarboxylic-acid--CoA ligase (hexadecandioate)
+ECOAHDC10p	3-hydroxyacyl-CoA dehydratase (3-hydroxydodecanedioyl-CoA), peroxisomal
+ECOAHDC12p	3-hydroxyacyl-CoA dehydratase (3-hydroxydodecanedioyl-CoA), peroxisomal
+ECOAHDC14p	3-hydroxyacyl-CoA dehydratase (3-hydroxytetradecanedioyl-CoA), peroxisomal
+ECOAHDC16p	3-hydroxyacyl-CoA dehydratase (3-hydroxyhexadecanedioyl-CoA), peroxisomal
+ECOAHDC6p	3-hydroxyacyl-CoA dehydratase (3-hydroxyadipoyl-CoA), peroxisomal
+ECOAHDC8p	3-hydroxyacyl-CoA dehydratase (3-hydroxyoctanedioyl-CoA), peroxisomal
+HACDDC10p	3-hydroxyacyl-CoA dehydrogenase (3-oxodecanedioyl-CoA), peroxisomal
+HACDDC12p	3-hydroxyacyl-CoA dehydrogenase (3-oxododecanedioyl-CoA), peroxisomal
+HACDDC14p	3-hydroxyacyl-CoA dehydrogenase (3-oxotetradecanedioyl-CoA), peroxisomal
+HACDDC16p	3-hydroxyacyl-CoA dehydrogenase (3-oxohexadecanedioyl-CoA), peroxisomal
+HACDDC6p	3-hydroxyacyl-CoA dehydrogenase (3-oxoadipoyl-CoA), peroxisomal
+HACDDC8p	3-hydroxyacyl-CoA dehydrogenase (3-oxooctanedioyl-CoA), peroxisomal
+C10DCte	Decanedioate extracellular transport
+C10DCtp	Decanedioate peroxisomal transport
+C12DCte	Dodecanedioate extracellular transport
+C12DCtp	Dodecanedioate peroxisomal transport
+C16DCte	Hexadecanedioate extracellular transport
+C16DCtp	Hexadecanedioate peroxisomal transport
+ASPOcm	aspartate oxidase
+DHFS	dihydrofolate synthase
+L_LACtm	L lactate transport mitochondrial
+FTHFI	5 Formyltetrahydrofolate10 Formyltetrahydrofolate isomerase
+QULNS	quinolinate synthase
+MGCH	Methylglutaconyl-coa hydratase

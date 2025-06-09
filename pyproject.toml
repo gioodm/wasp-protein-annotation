@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wasp-protein-annotation"
+version = "1.0.0"
+description = "WASP: A computational pipeline for protein functional annotation using structural information."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+
+authors = [
+    { name = "Giorgia Del Missier", email = "delmissiergiorgia@gmail.com" }
+]
+
+dependencies = [
+    "altair==5.2.0",
+    "altair-data-server==0.4.1",
+    "altair-saver==0.5.0",
+    "altair-viewer==0.4.0",
+    "biopython==1.84",
+    "cobra==0.29.0",
+    "matplotlib==3.9.0",
+    "multiprocess==0.70.16",
+    "networkx==3.3",
+    "numpy==1.26.4",
+    "openpyxl==3.1.2",
+    "pandas==2.2.2",
+    "requests==2.32.2",
+    "scipy==1.11.4",
+    "statsmodels==0.14.2",
+    "tqdm==4.66.4",
+    "urllib3==2.2.1",
+    "vl-convert-python==1.4.0",
+    "XlsxWriter==3.2.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/gioodm/WASP"
+
+[project.scripts]
+wasp-run = "wasp.main.run:main"
+wasp-gem = "wasp.gem.run_gem:main"
+find-orphans = "wasp.utils.gem_preprocessing.find_orphans:main"
+run-rxn2code = "wasp.utils.gem_preprocessing.rxn2code:main"
+afdb-download = "wasp.utils.fasta2pdb.afdb_downloader:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["wasp", "wasp.*"]

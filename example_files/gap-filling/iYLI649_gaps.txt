@@ -1,0 +1,342 @@
+#rxn	rxn (extended name)	Rhea ID	EC number
+2DHPtm	2 Dehydropantoate mitochondrial transport		
+2OHPH_5tn	2 Octaprenyl 6 hydroxyphenol nuclear transport		
+2OMPH_5tm	2 Octaprenyl 6 methoxyprenol mitochondrial transport		
+2OMPH_5tn	2 Octaprenyl 6 methoxyprenol nuclear transport		
+34HPPOR	4 Hydroxyphenylpyruvateoxygen oxidoreductase	RHEA:16192, RHEA:16190, RHEA:16189, RHEA:16191	EC:1.13.11.27
+34HPPt2m	3 4 hydroxyphenyl pyruvate mitochondrial transport via proton symport		
+34HPPt2p	3 4 hydroxyphenyl pyruvate peroxisomal transport via proton symport		
+3OPHB_5tm	3 Octaprenyl 4 hydroxybenzoate mitochondrial transport		
+4HBZtm	4 Hydroxybenzoate mitochondrial transport		
+5AOPtm	5 Aminolevulinate mitochondrial transport		
+8AONNt2	8 Amino 7 oxononanoate reversible transport via proton symport		
+AABTN	4 acetamidobutyrate deacetylase	RHEA:15898, RHEA:15899, RHEA:15900, RHEA:18901, RHEA:15897	EC:3.5.1.63, EC:3.5.1.64
+ACRNtp	acetylcarnitine transport out of peroxisome		
+ARGSSr	argininosuccinate synthase reversible	RHEA:10933, RHEA:10935, RHEA:10932, RHEA:10934	EC:6.3.4.5
+ACtm	acetate transport mitochondrial	RHEA:27817, RHEA:27816, RHEA:27815, RHEA:27814	
+ACtp	acetate transport peroxisomal	RHEA:27817, RHEA:27816, RHEA:27815, RHEA:27814	
+ADCL	4 aminobenzoate synthase	RHEA:16202, RHEA:16203, RHEA:16204, RHEA:16201	EC:4.1.3.38
+ADEtm	adenine reversible transport mitochondria		
+ADNt2	adenosine transport in via proton symport	RHEA:29988, RHEA:29989, RHEA:29990, RHEA:29987	
+G5SADr	L glutamate 5 semialdehyde dehydratase reversible	RHEA:28234, RHEA:28237, RHEA:28235, RHEA:28236	
+AHCYStm	S adenosyl L homocysteine reversible transport mitochondrial		
+AHCYStn	S adenosyl L homocysteine nuclear transport		
+AHMMPS	4 amino 5 hydroxymethyl 2 methylpyrimidine synthetase		
+AKGMAL	alpha ketoglutaratemalate transporter		
+AKGt2n	2 oxoglutarate nuclear transport via proton symport	RHEA:29014, RHEA:29011, RHEA:29012, RHEA:29013	
+AKGt2r	2 oxoglutarate reversible transport via symport	RHEA:29014, RHEA:29011, RHEA:29012, RHEA:29013	
+AM6SAD	aminomuconate semialdehyde dehydrogenase	RHEA:14469, RHEA:14470, RHEA:14471, RHEA:14472	EC:1.2.1.32
+AMETtm	S Adenosyl L methionine reversible transport mitochondrial		
+AMETtn	S adenosyl L methionine nuclear transport		
+APRTO2	N acetylputrescine oxygen oxireductase deaminating	RHEA:70283	
+ARAB_Dt	D arabinose reversible transport		
+ARAB_Lt	L arabinoase extracellular transport		
+ARGt2m	arginine mitochondrial transport via proton symport		
+ASNt2m	asparagine mitochondrial transport via proton transport		
+ASP1DC	aspartate 1 decarboxylase	RHEA:19497, RHEA:19499, RHEA:19500, RHEA:19498	EC:4.1.1.11
+ASPGLUtp	aspartate glutamate peroxisomal shuttle		
+ASPt2m	aspartate mitochondrial transport via proton symport		
+ATPM	ATP maintenance requirement	RHEA:20621, RHEA:13068, RHEA:13065, RHEA:15181, RHEA:20852, RHEA:14733, RHEA:13067, RHEA:13066, RHEA:14673	EC:7.2.2.15, EC:7.6.2.4, EC:3.6.4.6, EC:7.4.2.1, EC:7.2.2.12, EC:7.1.2.1
+SERATi	serine O acetyltransferase irreversible	RHEA:24562, RHEA:24561, RHEA:24563, RHEA:24560	EC:2.3.1.30
+DESAT18_2	Oleoyl CoA desaturase n C181CoA n C182CoA		
+CDPtn	CDP nuclear transport		
+CERS124	Ceramide 1 synthase 24C		
+CERS126	Ceramide 1 synthase 26C		
+CERS224	Ceramide 2 synthase 24C		
+CERS226	Ceramide 2 synthase 26C		
+CITt2r	citrate reversible transport via symport	RHEA:32126, RHEA:32123, RHEA:32125, RHEA:32124	
+CITtap	citratemalate antiport into peroxisome		
+CITtcp	citrateisocitrate antiport into peroxisome		
+CMPN	CMP nucleosidase		
+CO2tg	CO2 Golgi transport		
+CO2tp	CO2 peroxisomal transport		
+CO2tv	CO2 vacuolar transport		
+CRNCARtp	carnitine acetylcarnitine carrier peroxisomal	RHEA:49909, RHEA:49908, RHEA:49911, RHEA:49910	
+CRNtp	carnitine transport into peroxsiome	RHEA:34961, RHEA:34959, RHEA:34960, RHEA:34962	
+CSNAT	carnitine O acetyltransferase	RHEA:21136, RHEA:21137, RHEA:21139, RHEA:21138	EC:2.3.1.7
+CYSTtp	cystathione peroxisomal transport		
+CYTDt2	cytidine transport in via proton symport	RHEA:29985, RHEA:29983, RHEA:29986, RHEA:29984	
+CYTK1	cytidylate kinase CMP	RHEA:11602, RHEA:11600, RHEA:11601, RHEA:11603	EC:2.7.4.14
+CYTK2	cytidylate kinase dCMP	RHEA:25096, RHEA:25094, RHEA:25097, RHEA:25095	EC:2.7.4.14
+DADK	deoxyadenylate kinase	RHEA:23101, RHEA:23100, RHEA:23102, RHEA:23103	EC:2.7.4.11
+DADNt2	deoxyadenosine transport in via proton symport	RHEA:29982, RHEA:29980, RHEA:29979, RHEA:29981	
+DADPtn	DADP nuclear transport		
+DANNt2	7 8 Diaminononanoate reversible transport via proton symport		
+DB4PS	3 4 Dihydroxy 2 butanone 4 phosphate synthase	RHEA:18457	EC:4.1.99.12
+DBTSr	dethiobiotin synthase	RHEA:15805, RHEA:15807, RHEA:15808, RHEA:15806	EC:6.3.3.3
+DCDPtn	dCDP nuclear transport		
+DCYTt2	deoxycytidine transport in via proton symport	RHEA:29977, RHEA:29975, RHEA:29976, RHEA:29978	
+DESAT14	Myristicoyl CoA desaturase n C140CoA n C141CoA		
+DGDPtn	dGDP nuclear transport		
+DGSNt2	deoxyguanosine transport in via proton symport		
+DHAPtm	dihydroxyacetone phosphate transport mitochondrial		
+DHFtm	dihydrofolate reversible mitochondrial transport		
+DHNPTtm	dhnpt mitochondrial transport		
+DHORD	dihydoorotic acid dehydrogenase	RHEA:15441, RHEA:15444, RHEA:15442, RHEA:15443	
+DHPPDA	diaminohydroxyphosphoribosylaminopyrimidine deaminase		
+DIAT	diamine transaminase	RHEA:33101, RHEA:33099, RHEA:33102, RHEA:33100	EC:2.3.1.57
+DINSt2	deoxyinosine transport in via proton symport	RHEA:29973, RHEA:29974, RHEA:29972, RHEA:29971	
+DNTPPA	Dihydroneopterin triphosphate pyrophosphatase	RHEA:25302, RHEA:25305, RHEA:25303, RHEA:25304	EC:3.6.1.67
+ddca_t_	dodecanoate transport		
+DPCOAK	dephospho CoA kinase	RHEA:18245, RHEA:18246, RHEA:18248, RHEA:18247	EC:2.7.1.24
+DPCOAKm	dephospho CoA kinase mitochondrial	RHEA:18245, RHEA:18246, RHEA:18248, RHEA:18247	EC:2.7.1.24
+DTTPt	dTTP reversible uniport		
+DUMPtn	dUMP nuclear transport		
+DURIK1	deoxyuridine kinase ATPDeoxyuridine	RHEA:28207, RHEA:28206, RHEA:28209, RHEA:28208	
+DURIt2	deoxyuridine transport in via proton symport	RHEA:29968, RHEA:29970, RHEA:29969, RHEA:29967	
+DXHPScm	deoxyhypusine synthase cytosolicmitochondrial		
+D_LACtm	D lactate transport mitochondrial		
+EPMGH	Epimelibiose galactohydrolase		
+ETHAPT_SC	Ethanolaminephosphotransferase yeast specific		
+ETOHt	ethanol reversible transport	RHEA:35267, RHEA:35268, RHEA:35269, RHEA:35270	
+FA120ACPtm	fatty acyl ACP mitochondrial transport		
+FA140ACPtm	fatty acyl ACP mitochondrial transport		
+FA140tp	fatty acid peroxisomal transport		
+FA141ACPtm	fatty acyl ACP mitochondrial transport		
+FA141tp	fatty acid peroxisomal transport		
+FA160ACPtm	fatty acyl ACP mitochondrial transport		
+FA160tp	fatty acid peroxisomal transport	RHEA:45256, RHEA:45258, RHEA:45259, RHEA:45257	
+FA161ACPtm	fatty acyl ACP mitochondrial transport		
+FA161tp	fatty acid peroxisomal transport		
+FA180ACPtm	fatty acyl ACP mitochondrial transport		
+FA181ACPtm	fatty acyl ACP mitochondrial transport		
+FA182ACPtm	fatty acyl ACP mitochondrial transport		
+FAO141p_even	fatty acid oxidation		
+FAO141p_odd	Fatty acid oxidation		
+FAO161p_even	Fatty acid oxidation		
+FAO161p_odd	Fatty acid oxidation		
+FAO181p_even	Fatty acid oxidation		
+FAO181p_odd	Fatty acid oxidation		
+FAO182p_eveneven	Fatty acid oxidation		
+FAO182p_evenodd	Fatty acid oxidation		
+FAO182p_oddodd	Fatty acid oxidation		
+FAO240p	fatty acid oxidation tetradecansoyl CoA peroxisomal		
+FAO80p	fatty acid oxidation octanoyl CoA peroxisomal		
+FDNG	formate dehydrogenase cytosolicmitochondrial		
+FKYNH	N Formyl L kynurenine amidohydrolase	RHEA:13011, RHEA:13009, RHEA:13010, RHEA:13012	EC:3.5.1.9
+FMNATm	FMN adenylyltransferase	RHEA:17240, RHEA:17239, RHEA:17238, RHEA:17237	EC:2.7.7.2
+FORtm	formate mitochondrial transport	RHEA:29680, RHEA:29681, RHEA:29679, RHEA:29682	
+FRUK	fructose 1 phosphate kinase	RHEA:14213, RHEA:14215, RHEA:14214, RHEA:14216	EC:2.7.1.56
+FTHFCLm	5 formethyltetrahydrofolate cyclo ligase mitochondrial	RHEA:10489, RHEA:10491, RHEA:10488, RHEA:10490	EC:6.3.3.2
+FUMAC	fumarylacetoacetase	RHEA:10246, RHEA:10245, RHEA:10247, RHEA:10244	EC:3.7.1.2
+FUMt2r	fumarate reversible transport via symport		
+G16MTg	Glycolipid 1 6 alpha D mannosyltransferase Golgi apparatus		
+G5SADrm	L glutamate 5 semialdehyde dehydratase reversible mitochondrial	RHEA:28234, RHEA:28237, RHEA:28235, RHEA:28236	
+RNTR4	ribonucleoside triphosphate reductase UTP		
+GALIGH	1 alpha D Galactosyl myo inositol galactohydrolase		
+GALS3	a galactosidase melibiose		
+GALT	galactose 1 phosphate uridylyltransferase	RHEA:14209, RHEA:14210, RHEA:14211, RHEA:14212	EC:2.7.7.10
+GAM6Pt	D glucosamine 6 phosphate reversible uniport		
+GAT2_SC	glycerol 3 phosphate acyltransferase glycerone phosphate yeast specific		
+GCALDt	Glycoaldehydye reversible transport		
+GCALDtm	glycoaldehyde mitochondrial transport		
+GDPt3g	GDP Golgi transport via proton anitport		
+GDPtn	GDP nuclear transport		
+GGLGH	Galactosylglycerol galactohydrolase		
+GLCtv	glucose transport vacuolar		
+G6PDH2er	glucose 6 phosphate dehydrogenase endoplasmic reticulum	RHEA:15841, RHEA:15842, RHEA:15843, RHEA:15844	EC:1.1.1.49
+GLNt2n	glutamine nuclear transport via proton symport		
+GLUN	glutaminase	RHEA:15892, RHEA:15891, RHEA:15889, RHEA:15890	EC:3.5.1.2
+GLUt2m	L glutamate reversible transport via proton symport mitochondrial		
+GLUt2n	glutamate nuclear transport via proton symport		
+GLXtp	glyoxylate transport peroxisomal	RHEA:29725, RHEA:29723, RHEA:29726, RHEA:29724	
+GLYC3Ptm	glycerol 3 phosphate shuttle	RHEA:34968, RHEA:34969, RHEA:34967, RHEA:34970	
+GLYt2m	glycine mitochondrial transport via proton symport	RHEA:28901, RHEA:28900, RHEA:28899, RHEA:28902	
+GSNK	guanosine kinase	RHEA:27712, RHEA:27711, RHEA:27710, RHEA:27713	EC:2.7.1.73
+GSNt2	guanosine transport in via proton symport		
+GSNt2m	guanosine mitochondrial transport via proton symport		
+GTHOXti	oxidized glutathione irreversible uniport		
+H2Oter	H2O endoplasmic reticulum transport	RHEA:29668, RHEA:29670, RHEA:29669, RHEA:29667	
+H2Otm	H2O transport mitochondrial	RHEA:29668, RHEA:29670, RHEA:29669, RHEA:29667	
+H2Otp	H2O transport peroxisomal	RHEA:29668, RHEA:29670, RHEA:29669, RHEA:29667	
+H2Otv	H2O transport vacuolar	RHEA:29668, RHEA:29670, RHEA:29669, RHEA:29667	
+HCO3E	HCO3 equilibration reaction	, RHEA:10750, RHEA:10749, RHEA:10748, RHEA:10751	EC:4.2.1.1
+HCO3Em	HCO3 equilibration reaction	, RHEA:10750, RHEA:10749, RHEA:10748, RHEA:10751	EC:4.2.1.1
+HCO3En	HCO3 equilibrium reaction nuclear	, RHEA:10750, RHEA:10749, RHEA:10748, RHEA:10751	EC:4.2.1.1
+HCYSt2p	Homocysteine peroxisomal transport via proton symport		
+HDCAt	Hexadecanoate n C160 transport in via uniport	RHEA:45256, RHEA:45258, RHEA:45259, RHEA:45257	
+HDCEAt	hexadecenoate n C161 transport in via uniport		
+HGNTOR	Homogentisateoxygen 1 2 oxidoreductase decyclizing	RHEA:15451, RHEA:15449, RHEA:15450, RHEA:15452	EC:1.13.11.5
+GAT1_SC	glycerol 3 phosphate acyltransferase glycerol 3 phosphate yeast specific		
+HISt2m	histidine mitochondrial transport via proton symport	RHEA:37047, RHEA:37050, RHEA:37048, RHEA:37049	
+HMGCOAtm	Hydroxymethylglutaryl CoA reversible mitochondrial transport		
+HXANt2r	hypoxanthine reversible transport via proton symport		
+HYPOE	hypothetical enyme	RHEA:25136, RHEA:25137, RHEA:25138, RHEA:25135	EC:3.1.3.74
+INSK	insosine kinase	RHEA:21142, RHEA:21141, RHEA:21143, RHEA:21140	EC:2.7.1.73
+INSt2	inosine transport in via proton symport	RHEA:29965, RHEA:29963, RHEA:29964, RHEA:29966	
+DHORD4	dihydoorotic acid ubiquinone 6		
+OMPDC	orotidine 5 phosphate decarboxylase	RHEA:11599, RHEA:11598, RHEA:11597, RHEA:11596	EC:4.1.1.23
+Kt2r	potassium reversible transport via proton symport	RHEA:28490, RHEA:28492, RHEA:28493, RHEA:28491	
+LYSt2m	Lysine mitochondrial transport via proton symport	RHEA:28912, RHEA:28911, RHEA:28913, RHEA:28914	
+M1PD	mannitol 1 phosphate 5 dehydrogenase	, RHEA:19661, RHEA:19663, RHEA:19662, RHEA:19664	EC:1.1.1.17
+MACACI	maleylacetoacetate isomerase	RHEA:14819, RHEA:14817, RHEA:14818, RHEA:14820	EC:5.2.1.2
+MALOAAtp	malateoxaloacetate shuttle		
+MALt2r	L malate reversible transport via proton symport		
+MCOATAm	Malonyl CoA ACP transacylase mitochondrial	RHEA:41792	EC:2.3.1.39
+MELIBt2	melibiose transport in via symport		
+CHLSTI	cholestenol delta isomerase lumped reaction		
+METt2m	methionine mitochondrial transport via proton symport		
+NADN	NAD nucleosidase	RHEA:16303, RHEA:16301, RHEA:16302, RHEA:16304	EC:3.2.2.5
+NADNm	NAD nucleosidase mitochondrial	RHEA:16303, RHEA:16301, RHEA:16302, RHEA:16304	EC:3.2.2.5
+NADPPPS	NADP phosphatase	RHEA:28050, RHEA:28052, RHEA:28053, RHEA:28051	EC:3.1.3.108
+NADPPPSm	NADP phosphatase	RHEA:28050, RHEA:28052, RHEA:28053, RHEA:28051	EC:3.1.3.108
+NH4tp	ammonia peroxisomal transport	RHEA:28748, RHEA:28747, RHEA:28749, RHEA:28750	
+NMNTP	nmntp		
+NMNt2m	NMN mitochondrial transport via proton symport		
+NMNt2p	NMN peroxisomal transport via proton symport		
+AATA	2 aminoadipate transaminase	RHEA:12601, RHEA:12603, RHEA:12604, RHEA:12602	EC:2.6.1.39
+OCDCAt	Octadecanoate n C180 transport in via uniport	RHEA:39807, RHEA:39809, RHEA:39810, RHEA:39808	
+OCDCEAt	Octadecenoate n C181 transport in via uniport	RHEA:33656, RHEA:33657, RHEA:33658, RHEA:33655	
+OCDCYAt	Octadecynoate n C182 transport in via uniport		
+OCTDP_5tm	all trans Octaprenyl diphosphate		
+OMPHHX6m	2 octaprenyl 6 methoxyphenol hydroxylase mitochondrial		
+OPHHX6	2 Octaprenylphenol hydroxylase		
+DOLPt2er	dolichol phosphate endoplasmic reticular transport via proton symport		
+ERGSTter	ergosterol endoplasmic reticular transport		
+P5CDm	1 pyrroline 5 carboxylate dehydrogenase mitochondrial	RHEA:16419, RHEA:16420, RHEA:16417, RHEA:16418	EC:1.2.1.88
+ERGTETROLter	Ergosta 5 6 22 24 28 tetraen 3beta ol endoplamic reticular transport		
+PAK_SC	phosphatidate kinase yeast specific		
+PAN4Ptm	panthetheine 4 phosphate reversible mitochondrial transport		
+PANTtm	pantothenate mitochondrial transport		
+PAPt	PAP reversible uniport		
+PAPtm	Adenosine 3 5 bisphosphate mitochondrial transport		
+PAtm_SC	phosphatidate reversible transport mitochondrial yeast specific		
+PCLAD	picolinic acid decarboxylase	RHEA:16557, RHEA:16558, RHEA:16559, RHEA:16560	EC:4.1.1.45
+O2ter	O2 transport endoplasmic reticulum		
+SQ23EPXter	Squalene 2 3 epoxide endoplamic reticular transport		
+PEtg_SC	phosphatidylethanolamine Golgi transport yeast specific		
+PEtm_SC	phosphatidylethanolamine mitochondrial transport yeast specific		
+PEtv_SC	phosphatidylethanolamine vacuolar transport yeast specific		
+SQLter	squalene endoplamic reticular transport		
+PGPPAm_SC	phosphatidylglycerol phosphate phosphatase A yeast specific mitochondrial		
+PHEt2m	Phenylalanine mitochondrial transport via proton symport	RHEA:28923, RHEA:28924, RHEA:28926, RHEA:28925	
+PI3P4K_SC	phosphatidylinositol 3 phosphate 4 kinase yeast specific		
+PIt2p	phosphate peroxisomal transport via proton symport	RHEA:29942, RHEA:29939, RHEA:29940, RHEA:29941	
+PIt2v	phosphate vacuolar transport via proton symport	RHEA:29942, RHEA:29939, RHEA:29940, RHEA:29941	
+PMDPHT	pyrimidine phosphatase	RHEA:25199, RHEA:25200, RHEA:25197, RHEA:25198	EC:3.1.3.104
+POLYAO	polyamine oxidase	RHEA:26030, RHEA:26029, RHEA:26028, RHEA:26027	
+POLYAO2	poylamine oxidase	RHEA:16133, RHEA:16136, RHEA:16134, RHEA:16135	
+PPND	prephenate dehydrogenase	RHEA:13870, RHEA:13872, RHEA:13871, RHEA:13869	EC:1.3.1.12
+PPPG9tm	protoporphyrinogen IX mitochondrial transport		
+NH4tm	NH3 mitochondrial transport	RHEA:28748, RHEA:28747, RHEA:28749, RHEA:28750	
+PROtm	L proline transport mitochondrial		
+PRPPtm	PRPP reversible transport mitochondrial		
+PYRt2m	pyruvate mitochondrial transport via proton symport		
+THRt2m	threonine mitochondrial transport via proton symport	RHEA:28886, RHEA:28883, RHEA:28884, RHEA:28885	
+ASPt2n	aspartate nuclear transport via proton symport		
+PStg_SC	phosphatidylserine Golgi transport yeast specific		
+PStm_SC	phosphatidylserine mitochondrial transport yeast specific		
+PStv_SC	phosphatidylserine vacuolar transport yeast specific		
+PTD1INOtn_SC	phosphatidyl 1D myo insoitol nuclear transport yeast specific		
+PTD4INOtn_SC	phosphatidyl 1D myo 4 inositol nuclear transport yeast specific		
+PTRCt2	putrescine transport in via proton symport	RHEA:28892, RHEA:28893, RHEA:28894, RHEA:28891	
+PYNP2r	pyrimidine nucleoside phosphorylase uracil	RHEA:24388, RHEA:24390, RHEA:24391, RHEA:24389	EC:2.4.2.2
+DHORtn	S Dihydrooroate nuclear transport		
+PYRt2p	pyruvate peroxisomal transport via proton symport		
+QULNtm	Quinolinate reversible mitochondrial transport		
+RIBFLVt2	riboflavin transport in via proton symport		
+RIBFLVtm	Riboflavin reversible mitochondrial transport	RHEA:35018, RHEA:35016, RHEA:35015, RHEA:35017	
+RIBt2	ribose transport in via proton symporter		
+H2Otn	H2O transport nuclear	RHEA:29668, RHEA:29670, RHEA:29669, RHEA:29667	
+RNTR1	ribonucleoside triphosphate reductase ATP		
+RNTR2	ribonucleoside triphosphate reductase GTP		
+RNTR3	ribonucleoside triphosphate reductase CTP		
+PIt2n	phosphate nuclear transport via proton symport	RHEA:29942, RHEA:29939, RHEA:29940, RHEA:29941	
+SERt2m	serine mitochondrial transport via proton symport	RHEA:28889, RHEA:28888, RHEA:28887, RHEA:28890	
+SPMDAT1	Spermidine acetyltransferase	RHEA:28152, RHEA:28153, RHEA:28151, RHEA:28150	EC:2.3.1.57
+SPMDt2	spermidine transport in via proton symport		
+SRB_Lt	L sorbose reversible transport		
+SUCCt2r	succinate transport via proton symport		
+THMDt2	thymidine transport in via proton symport	RHEA:29958, RHEA:29957, RHEA:29955, RHEA:29956	
+THMP	thiamin phosphatase		
+THYMt3r	thymine reversible transport via proton antiport		
+THZPSN1_SC	thiazole phosphate synthesis xylulose 5 phosphate yeast specific		
+TMDK1	thymidine kinase ATPthymidine	RHEA:19129, RHEA:19131, RHEA:19130, RHEA:19132	EC:2.7.1.21
+TMN	thiaminase		
+TMPKr	thiamine phosphate kinase	RHEA:15915, RHEA:15916, RHEA:15913, RHEA:15914	EC:2.7.4.16
+IPMD	3 isopropylmalate dehydrogenase	RHEA:10892, RHEA:10895, RHEA:10894, RHEA:10893	
+TREt2	trehalose transport in via proton symporter		
+TREt2v	trehalose vacuolar transport via proton symport		
+TRPt2m	tryptophan mitochondrial transport via proton symport	RHEA:28879, RHEA:28880, RHEA:28881, RHEA:28882	
+TTDCAt	Tetradecanoate n C140 transport in via uniport		
+TYRt2m	tyrosine mitochondrial transport via proton symport	RHEA:28876, RHEA:28875, RHEA:28878, RHEA:28877	
+TYRt2p	tyrosine peroxisomal transport via proton symport	RHEA:28876, RHEA:28875, RHEA:28878, RHEA:28877	
+UMPtn	UMP nuclear transport	RHEA:27928, RHEA:27926, RHEA:27927, RHEA:27929	
+VALt2m	Valine reversible mitochondrial transport via proton symport		
+XANt	xanthine reversible transport		
+XTSNt2	xanthosine transport in via proton symport	RHEA:28941, RHEA:28942, RHEA:28940, RHEA:28939	
+XYLt	D xylose reversible transport		
+ACAT_epist	ACAT epist		
+ACAT_ergst	ACAT ergst		
+ACAT_fecost	ACAT fecost		
+ACAT_lanost	ACAT lanost		
+ACAT_zymst	ACAT zymst		
+DGL	DGL		
+DGRK_SC	DGRK SC		
+LRO1_ps	LRO1 ps		
+MGL	MGL		
+PHOSPTD	PHOSPTD		
+PLB_lpc	PLB lpc		
+PLB_lpe	PLB lpe		
+PLB_lps	PLB lps		
+PLB_pc	PLB pc		
+PLB_pe	PLB pe		
+PLB_ps	PLB ps		
+PL_gpc	PL gpc		
+PL_gpe	PL gpe		
+PL_gps	PL gps		
+SEH_epist	SEH epist		
+SEH_ergst	SEH ergst		
+SEH_fecost	SEH fecost		
+SEH_lanost	SEH lanost		
+SEH_zymst	SEH zymst		
+SEp_form	SEp form		
+membrane_rSC4_bal	membrane rSC4 bal		
+glycogen_c_tp	glycogen c tp		
+membrane_WOtag	membrane WOtag		
+rETOHt	rETOHt		
+FAO100p	fatty acid oxidation decanoyl CoA peroxisomal YL		
+FAO120p	fatty acid oxidation dodecanoyl CoA peroxisomal YL		
+FAO60p	fatty acid oxidation hexanoyl CoA peroxisomal YL		
+BUCAt	butanoate n C40 transport in via uniport YL		
+coatp	CoA transport peroxisome YL		
+O2tp	oxygen transport peroxisome		
+ACACTDC10p	acetyl-CoA C-acetyltransferase (decanedioyl-CoA), peroxisomal		
+ACACTDC12p	acetyl-CoA C-acetyltransferase (dodecanedioyl-CoA), peroxisomal		
+ACACTDC14p	acetyl-CoA C-acetyltransferase (tetradecanedioyl-CoA), peroxisomal		
+ACACTDC16p	acetyl-CoA C-acetyltransferase (hexadecanedioyl-CoA), peroxisomal		
+ACACTDC6p	acetyl-CoA C-acetyltransferase (adipoyl-CoA), peroxisomal		
+ACACTDC8p	acetyl-CoA C-acetyltransferase (octanedioyl-CoA), peroxisomal		
+ACOAODC10p	acyl-CoA oxidase (decanedioyl-CoA), peroxisomal		
+ACOAODC12p	acyl-CoA oxidase (dodecanedioyl-CoA), peroxisomal		
+ACOAODC14p	acyl-CoA oxidase (tetradecanedioyl-CoA), peroxisomal		
+ACOAODC16p	acyl-CoA oxidase (hexadecanedioyl-CoA), peroxisomal		
+ACOAODC6p	acyl-CoA oxidase (adipoyl-CoA), peroxisomal		
+ACOAODC8p	acyl-CoA oxidase (octanedioyl-CoA), peroxisomal		
+DCCOAL10	Dicarboxylic-acid--CoA ligase (decandioate)		
+DCCOAL12	Dicarboxylic-acid--CoA ligase (dodecandioate)		
+DCCOAL16	Dicarboxylic-acid--CoA ligase (hexadecandioate)		
+ECOAHDC10p	3-hydroxyacyl-CoA dehydratase (3-hydroxydodecanedioyl-CoA), peroxisomal		
+ECOAHDC12p	3-hydroxyacyl-CoA dehydratase (3-hydroxydodecanedioyl-CoA), peroxisomal		
+ECOAHDC14p	3-hydroxyacyl-CoA dehydratase (3-hydroxytetradecanedioyl-CoA), peroxisomal		
+ECOAHDC16p	3-hydroxyacyl-CoA dehydratase (3-hydroxyhexadecanedioyl-CoA), peroxisomal		
+ECOAHDC6p	3-hydroxyacyl-CoA dehydratase (3-hydroxyadipoyl-CoA), peroxisomal		
+ECOAHDC8p	3-hydroxyacyl-CoA dehydratase (3-hydroxyoctanedioyl-CoA), peroxisomal		
+HACDDC10p	3-hydroxyacyl-CoA dehydrogenase (3-oxodecanedioyl-CoA), peroxisomal		
+HACDDC12p	3-hydroxyacyl-CoA dehydrogenase (3-oxododecanedioyl-CoA), peroxisomal		
+HACDDC14p	3-hydroxyacyl-CoA dehydrogenase (3-oxotetradecanedioyl-CoA), peroxisomal		
+HACDDC16p	3-hydroxyacyl-CoA dehydrogenase (3-oxohexadecanedioyl-CoA), peroxisomal		
+HACDDC6p	3-hydroxyacyl-CoA dehydrogenase (3-oxoadipoyl-CoA), peroxisomal		
+HACDDC8p	3-hydroxyacyl-CoA dehydrogenase (3-oxooctanedioyl-CoA), peroxisomal		
+C10DCte	Decanedioate extracellular transport		
+C10DCtp	Decanedioate peroxisomal transport		
+C12DCte	Dodecanedioate extracellular transport		
+C12DCtp	Dodecanedioate peroxisomal transport		
+C16DCte	Hexadecanedioate extracellular transport		
+C16DCtp	Hexadecanedioate peroxisomal transport		
+ASPOcm	aspartate oxidase		
+DHFS	dihydrofolate synthase	RHEA:23584, RHEA:23585, RHEA:23586, RHEA:23587	EC:6.3.2.12
+L_LACtm	L lactate transport mitochondrial	RHEA:29418, RHEA:29417, RHEA:29416, RHEA:29415	
+FTHFI	5 Formyltetrahydrofolate10 Formyltetrahydrofolate isomerase		
+QULNS	quinolinate synthase	RHEA:25891, RHEA:25890, RHEA:25888, RHEA:25889	EC:2.5.1.72
+MGCH	Methylglutaconyl-coa hydratase		
