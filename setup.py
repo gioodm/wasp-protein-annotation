@@ -10,7 +10,7 @@ with open("requirements.txt") as f:
     install_requires = f.read().splitlines()
 
 setup(
-    name="wasp-protein-annotation",
+    name="wasp-proteins-annotation",
     version="1.0.0",
     description="WASP: A computational pipeline for protein functional annotation using structural information.",
     long_description=long_description,
