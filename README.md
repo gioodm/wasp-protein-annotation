@@ -66,7 +66,7 @@ conda activate wasp-env
 2. **Install WASP**:
 
 ```bash
-pip install wasp-protein-annotation
+pip install wasp-proteins-annotation
 ```
 
 Then, install Foldseek in the `/bin` of the project root. Follow the installation instructions at [Foldseek GitHub](https://github.com/steineggerlab/foldseek).
@@ -87,7 +87,7 @@ Install `gsutil` and initialise the gcloud CLI, following instructions for your 
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/gioodm/wasp-protein-annotation.git
+git clone https://github.com/gioodm/wasp-proteins-annotation.git
 cd WASP
 ```
 
