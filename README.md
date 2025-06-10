@@ -211,7 +211,7 @@ Pre-download FASTA sequences to avoid failures. Test with one protein first to v
 
 For custom workflows, modify the script (e.g., add `--amber` or `--templates`). See the ColabFold docs for advanced options.
 
-## References
+## 4 References
 
 [1] van Kempen M, Kim SS, Tumescheit C, Mirdita M, Lee J, Gilchrist CLM, et al. Fast and accurate protein structure
 search with Foldseek. Nature Biotechnology. 2023. doi: https://doi.org/10.1038/s41587-023-01773-0
