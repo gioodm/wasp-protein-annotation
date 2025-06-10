@@ -34,7 +34,10 @@ If you find WASP helpful in your research, please cite us:
 2. [Usage](#2-usage)
    - [Whole-proteome annotation](#21-whole-proteome-annotation)
    - [GEM gap-filling module](#22-gem-gap-filling-module)
-3. [References](#3-references)
+3. [Utils](#3-utils)
+   -[Download custom proteins]()
+   -[Predict custom strucrures]()
+4. [References](#4-references)
 
 ## 1. Installation
 
@@ -175,6 +178,38 @@ wasp-gem [-h] [-e evalue_threshold] [-b bitscore_threshold] [-t tmscore] taxid g
 ```
 
 An example of the final output can be found at `example_files/gap_filling/iYLI649_hits.txt`
+
+## 3.0 Additional utils
+
+### 3.1 Downloading custom protein structures from AFDB
+The afdb-download utility allows you to fetch protein structures from the AlphaFold Database (AFDB) using either a FASTA file containing protein sequences or a list of UniProt IDs.
+
+#### Usage:
+
+```bash
+afdb-download [-h] --input_file INPUT_FILE --output_dir OUTPUT_DIR [--num_cores NUM_CORES]
+```
+
+### 3.2 Predicting structures with ColabFold
+A Python script (`predict_structures.py`) is provided to run ColabFold predictions on a list of UniProt IDs.
+
+Prerequisites:
+- [ColabFold](https://github.com/sokrypton/ColabFold) must be installed and accessible in your PATH.
+- Ensure your system meets hardware requirements (GPU recommended for large predictions).
+
+#### Usage:
+
+```bash
+python3 predict_structures.py -i <uniprot_ids.txt> -o <output_dir> [-c <cores>]  
+```
+
+#### Best practices & recommendations
+
+For large-scale predictions, combine proteins into a single FASTA file to reduce overhead, but split into smaller batches (50-100 proteins) to avoid memory issues. Use parallel processing (`-c 8` for 8 cores) and submit as a batch job (e.g., SLURM) for heavy workloads.
+
+Pre-download FASTA sequences to avoid failures. Test with one protein first to verify setup. If predictions fail, reduce `--num-recycle` (default: 3) or check GPU memory.
+
+For custom workflows, modify the script (e.g., add `--amber` or `--templates`). See the ColabFold docs for advanced options.
 
 ## References
 
