@@ -34,9 +34,9 @@ If you find WASP helpful in your research, please cite us:
 2. [Usage](#2-usage)
    - [Whole-proteome annotation](#21-whole-proteome-annotation)
    - [GEM gap-filling module](#22-gem-gap-filling-module)
-3. [Utils](#3-utils)
-   -[Download custom proteins]()
-   -[Predict custom strucrures]()
+3. [Additional utils](#3-additional-utils)
+   -[Download custom proteins](#31-downloading-custom-protein-structures-from-afdb)
+   -[Predict custom strucrures](#32-predicting-structures-with-colabfold)
 4. [References](#4-references)
 
 ## 1. Installation
@@ -179,7 +179,7 @@ wasp-gem [-h] [-e evalue_threshold] [-b bitscore_threshold] [-t tmscore] taxid g
 
 An example of the final output can be found at `example_files/gap_filling/iYLI649_hits.txt`
 
-## 3.0 Additional utils
+## 3 Additional utils
 
 ### 3.1 Downloading custom protein structures from AFDB
 The afdb-download utility allows you to fetch protein structures from the AlphaFold Database (AFDB) using either a FASTA file containing protein sequences or a list of UniProt IDs.
