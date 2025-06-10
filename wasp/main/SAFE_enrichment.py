@@ -11,8 +11,12 @@ import pandas as pd
 import numpy as np
 import altair as alt
 from altair_saver import save
+from pathlib import Path
 
-sys.path.append(os.path.join(os.getcwd(), 'wasp', 'main', 'safepy'))
+# Get the directory where safe.py is located
+safepy_dir = str(Path(__file__).parent.resolve())
+sys.path.append(safepy_dir)
+
 from wasp.main.safepy import safe
 
 # Set random seed for reproducibility
