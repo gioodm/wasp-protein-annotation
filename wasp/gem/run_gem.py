@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # @author Giorgia Del Missier
 
-import argparse, os, sys, subprocess
+import argparse, os, sys, subprocess, glob, shutil
 import numpy as np
 
 from .rxn2uniprot import map_orphan_rxns
@@ -137,10 +137,26 @@ def main():
     subprocess.run(["foldseek", "convertalis", "--format-output", "query,target,qlen,tlen,fident,alnlen,mismatch,qstart,qend,tstart,tend,alntmscore,evalue,bits", 
                     f"{db_dir}/subdb{args.taxid}", f"{db_dir}/subdb{args.taxid}", f"{taxid_dir}/{args.taxid}_db_allvsall", f"{taxid_dir}/{args.taxid}_db_allvsall.m8"], check=True)
 
-    subprocess.run(["rm", f"{db_dir}/subdb{args.taxid}*"], check=True, shell=True,)
-    subprocess.run(["rm", f"{db_dir}/{args.taxid}*"], check=True, shell=True,)
-    subprocess.run(["rm", "-rf", "tmp"], check=True, shell=True,)
-    subprocess.run(["find", taxid_dir, "-type", "f", "!", "-name", "*.txt", "!", "-name", "*.m8", "-delete"], check=True, shell=True,)
+    for file in glob.glob(os.path.join(db_dir, f"subdb{args.taxid}*")):
+        try:
+            os.remove(file)
+        except IsADirectoryError:
+            shutil.rmtree(file)
+
+    for file in glob.glob(os.path.join(db_dir, f"{args.taxid}*")):
+        try:
+            os.remove(file)
+        except IsADirectoryError:
+            shutil.rmtree(file)
+
+    if os.path.isdir("tmp"):
+        shutil.rmtree("tmp")
+
+    for root, dirs, files in os.walk(taxid_dir):
+        for fname in files:
+            if not (fname.endswith(".txt") or fname.endswith(".m8")):
+                file_path = os.path.join(root, fname)
+                os.remove(file_path)
 
     ####---- GAP FILLING ----####
 

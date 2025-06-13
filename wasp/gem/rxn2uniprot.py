@@ -1,35 +1,51 @@
 #!/usr/bin/env python3.10
 # @author: Giorgia Del Missier
 
-import argparse
 import requests
+import time
 
-def get_UniProt(protein):
+def get_UniProt(protein, max_retries=3, delay=2):
     """
     Retrieve UniProt IDs associated with a given Rhea ID or EC number using the UniProt REST API.
     """
-    UNIPROT_API = "https://rest.uniprot.org/uniprotkb/"
-    response = None
+    UNIPROT_API = "https://rest.uniprot.org/uniprotkb/stream"
 
-    try:
-
-        if protein.startswith("RHEA"):
-            rhea_id = protein.split(":")[1]
-            # Query UniProt API for UniProt IDs associated with the Rhea ID
-            response = requests.get(f"{UNIPROT_API}stream?format=list&query=(cc_catalytic_activity_exp:\"rhea:{rhea_id}\") AND (database:alphafolddb)")
-
-        elif protein.startswith("EC"):
-            ec_id = protein.split(":")[1]
-            # Query UniProt API for UniProt IDs associated with the EC number
-            response = requests.get(f"{UNIPROT_API}stream?format=list&query=(cc_catalytic_activity_exp:\"EC:{ec_id}\") AND (database:alphafolddb)")
-
-        # Extract UniProt IDs from the response
-        uniprot_ids = response.text.strip().split()
-        return uniprot_ids
-    
-    except Exception as e:
-        print(f"Error retrieving UniProt IDs for {protein}: {e}")
+    # Determine query string
+    if protein.startswith("RHEA:"):
+        rhea_id = protein.split(":")[1]
+        query = f'(cc_catalytic_activity_exp:"rhea:{rhea_id}") AND (database:alphafolddb)'
+    elif protein.startswith("EC:"):
+        ec_id = protein.split(":")[1]
+        query = f'(cc_catalytic_activity_exp:"EC:{ec_id}") AND (database:alphafolddb)'
+    else:
+        print(f"Unrecognized protein format: {protein}")
         return []
+
+    params = {"format": "list", "query": query}
+
+    # Attempt with retries
+    for attempt in range(1, max_retries + 1):
+        try:
+            response = requests.get(UNIPROT_API, params=params, timeout=10)
+
+            if response.status_code == 200:
+                uniprot_ids = response.text.strip().split()
+                if uniprot_ids:
+                    return uniprot_ids
+                else:
+                    print(f"[{protein}] No UniProt IDs found (empty response).")
+                    return []
+            else:
+                print(f"[{protein}] Attempt {attempt}: HTTP {response.status_code} - {response.text.strip()[:200]}")
+
+        except requests.exceptions.RequestException as e:
+            print(f"[{protein}] Attempt {attempt}: Request failed - {e}")
+
+        if attempt < max_retries:
+            time.sleep(delay)
+
+    print(f"[{protein}] All attempts failed.")
+    return []
 
 def map_orphan_rxns(input_file, output_file, output_ids_file):
     """

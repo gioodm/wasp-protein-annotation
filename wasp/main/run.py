@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # @author Giorgia Del Missier
 
-import argparse, os, sys, subprocess
+import argparse, os, sys, subprocess, glob, shutil
 import numpy as np
 
 from .fs_besthits import get_besthits, save_besthits
@@ -166,11 +166,32 @@ def main():
                         f"{db_dir}/subdb{args.taxid}", f"{db_dir}/subdb{args.taxid}", f"{taxid_dir}/{args.taxid}_norm_bh", f"{taxid_dir}/{args.taxid}_norm_bh.m8"])
 
         # Clean up temporary files
-        subprocess.run(["rm", f"{db_dir}/subdb{args.taxid}*"], check=True, shell=True,)
-        subprocess.run(["rm", f"{db_dir}/afdb50sp{args.taxid}*"], check=True, shell=True,)
-        subprocess.run(["rm", f"{db_dir}/{args.taxid}*"], check=True, shell=True,)
-        subprocess.run(["rm", "-rf", "tmp"], check=True, shell=True,)
-        subprocess.run(["find", taxid_dir, "-type", "f", "!", "-name", "*.txt", "!", "-name", "*.m8", "-delete"], check=True, shell=True,)
+        for path in glob.glob(os.path.join(db_dir, f"subdb{args.taxid}*")):
+            if os.path.isfile(path):
+                os.remove(path)
+            elif os.path.isdir(path):
+                shutil.rmtree(path)
+
+        for path in glob.glob(os.path.join(db_dir, f"afdb50sp{args.taxid}*")):
+            if os.path.isfile(path):
+                os.remove(path)
+            elif os.path.isdir(path):
+                shutil.rmtree(path)
+
+        for path in glob.glob(os.path.join(db_dir, f"{args.taxid}*")):
+            if os.path.isfile(path):
+                os.remove(path)
+            elif os.path.isdir(path):
+                shutil.rmtree(path)
+
+        if os.path.exists("tmp"):
+            shutil.rmtree("tmp")
+
+        for root, dirs, files in os.walk(taxid_dir):
+            for fname in files:
+                if not fname.endswith(".txt") and not fname.endswith(".m8"):
+                    fpath = os.path.join(root, fname)
+            os.remove(fpath)
     else:
         print("Foldseek results already generated")
 
