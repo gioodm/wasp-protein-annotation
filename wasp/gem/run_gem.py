@@ -159,10 +159,9 @@ def main():
 
     print("Identifying best hits for each orphan reaction and performing gap-filling")
     run_gap_filling(f"{taxid_dir}/{args.taxid}.m8", f"{taxid_dir}/{args.taxid}_db_allvsall.m8", f"{taxid_dir}/{args.taxid}_rxn2up.txt", 
-                    f"{taxid_dir}/{args.taxid}_hits.txt", args.eval_thr, args.bits_thr, args.tms_thr)
+                    f"{taxid_dir}/{args.taxid}_hits.txt", args.eval_thr, args.bits_thr, args.tmscore_thr)
 
     print("\nGEM gap-filling complete!")
-
 
 if __name__ == "__main__":
     main()
