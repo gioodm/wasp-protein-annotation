@@ -166,11 +166,11 @@ def main():
                         f"{db_dir}/subdb{args.taxid}", f"{db_dir}/subdb{args.taxid}", f"{taxid_dir}/{args.taxid}_norm_bh", f"{taxid_dir}/{args.taxid}_norm_bh.m8"])
 
         # Clean up temporary files
-        subprocess.run(["rm", f"{db_dir}/subdb{args.taxid}*"], check=True)
-        subprocess.run(["rm", f"{db_dir}/afdb50sp{args.taxid}*"], check=True)
-        subprocess.run(["rm", f"{db_dir}/{args.taxid}*"], check=True)
-        subprocess.run(["rm", "-rf", "tmp"], check=True)
-        subprocess.run(["find", taxid_dir, "-type", "f", "!", "-name", "*.txt", "!", "-name", "*.m8", "-delete"], check=True)
+        subprocess.run(["rm", f"{db_dir}/subdb{args.taxid}*"], check=True, shell=True,)
+        subprocess.run(["rm", f"{db_dir}/afdb50sp{args.taxid}*"], check=True, shell=True,)
+        subprocess.run(["rm", f"{db_dir}/{args.taxid}*"], check=True, shell=True,)
+        subprocess.run(["rm", "-rf", "tmp"], check=True, shell=True,)
+        subprocess.run(["find", taxid_dir, "-type", "f", "!", "-name", "*.txt", "!", "-name", "*.m8", "-delete"], check=True, shell=True,)
     else:
         print("Foldseek results already generated")
 

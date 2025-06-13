@@ -137,10 +137,10 @@ def main():
     subprocess.run(["foldseek", "convertalis", "--format-output", "query,target,qlen,tlen,fident,alnlen,mismatch,qstart,qend,tstart,tend,alntmscore,evalue,bits", 
                     f"{db_dir}/subdb{args.taxid}", f"{db_dir}/subdb{args.taxid}", f"{taxid_dir}/{args.taxid}_db_allvsall", f"{taxid_dir}/{args.taxid}_db_allvsall.m8"], check=True)
 
-    subprocess.run(["rm", f"{db_dir}/subdb{args.taxid}*"], check=True)
-    subprocess.run(["rm", f"{db_dir}/{args.taxid}*"], check=True)
-    subprocess.run(["rm", "-rf", "tmp"], check=True)
-    subprocess.run(["find", taxid_dir, "-type", "f", "!", "-name", "*.txt", "!", "-name", "*.m8", "-delete"], check=True)
+    subprocess.run(["rm", f"{db_dir}/subdb{args.taxid}*"], check=True, shell=True,)
+    subprocess.run(["rm", f"{db_dir}/{args.taxid}*"], check=True, shell=True,)
+    subprocess.run(["rm", "-rf", "tmp"], check=True, shell=True,)
+    subprocess.run(["find", taxid_dir, "-type", "f", "!", "-name", "*.txt", "!", "-name", "*.m8", "-delete"], check=True, shell=True,)
 
     ####---- GAP FILLING ----####
 

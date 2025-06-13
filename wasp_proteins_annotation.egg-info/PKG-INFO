@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: wasp-proteins-annotation
-Version: 1.0.3
+Version: 1.0.4
 Summary: WASP: A computational pipeline for protein functional annotation using structural information.
 Home-page: https://github.com/gioodm/WASP
 Author: Giorgia Del Missier
@@ -91,9 +91,9 @@ If you find WASP helpful in your research, please cite us:
 2. [Usage](#2-usage)
    - [Whole-proteome annotation](#21-whole-proteome-annotation)
    - [GEM gap-filling module](#22-gem-gap-filling-module)
-3. [Utils](#3-utils)
-   -[Download custom proteins]()
-   -[Predict custom strucrures]()
+3. [Additional utils](#3-additional-utils)
+   - [Download custom proteins](#31-downloading-custom-protein-structures-from-afdb)
+   - [Predict custom strucrures](#32-predicting-structures-with-colabfold)
 4. [References](#4-references)
 
 ## 1. Installation
@@ -236,7 +236,7 @@ wasp-gem [-h] [-e evalue_threshold] [-b bitscore_threshold] [-t tmscore] taxid g
 
 An example of the final output can be found at `example_files/gap_filling/iYLI649_hits.txt`
 
-## 3.0 Additional utils
+## 3 Additional utils
 
 ### 3.1 Downloading custom protein structures from AFDB
 The afdb-download utility allows you to fetch protein structures from the AlphaFold Database (AFDB) using either a FASTA file containing protein sequences or a list of UniProt IDs.
@@ -268,7 +268,7 @@ Pre-download FASTA sequences to avoid failures. Test with one protein first to v
 
 For custom workflows, modify the script (e.g., add `--amber` or `--templates`). See the ColabFold docs for advanced options.
 
-## References
+## 4 References
 
 [1] van Kempen M, Kim SS, Tumescheit C, Mirdita M, Lee J, Gilchrist CLM, et al. Fast and accurate protein structure
 search with Foldseek. Nature Biotechnology. 2023. doi: https://doi.org/10.1038/s41587-023-01773-0
