@@ -184,9 +184,6 @@ def main():
             elif os.path.isdir(path):
                 shutil.rmtree(path)
 
-        if os.path.exists("tmp"):
-            shutil.rmtree("tmp")
-
         for root, dirs, files in os.walk(taxid_dir):
             for fname in files:
                 if not fname.endswith(".txt") and not fname.endswith(".m8"):

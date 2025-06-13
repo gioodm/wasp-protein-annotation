@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: wasp-proteins-annotation
-Version: 1.0.5
+Version: 1.0.6
 Summary: WASP: A computational pipeline for protein functional annotation using structural information.
 Home-page: https://github.com/gioodm/WASP
 Author: Giorgia Del Missier

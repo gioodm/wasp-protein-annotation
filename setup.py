@@ -11,7 +11,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="wasp-proteins-annotation",
-    version="1.0.5",
+    version="1.0.6",
     description="WASP: A computational pipeline for protein functional annotation using structural information.",
     long_description=long_description,
     long_description_content_type="text/markdown",
